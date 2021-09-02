@@ -1,7 +1,7 @@
 const { Schema, Types, model } = require("mongoose");
 const dateFormat = require("../utils/dateFormat");
 
-const ReplySchema = new Schema(
+const ReplySchema = new Schema (
   {
     replyId: {
       type: Schema.Types.ObjectId,
@@ -26,7 +26,7 @@ const ReplySchema = new Schema(
   }
 );
 
-const CommentSchema = new Schema(
+const CommentSchema = new Schema ( 
   {
     writtenBy: {
       type: String
